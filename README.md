@@ -1,73 +1,104 @@
-# Welcome to your Lovable project
+# 🧠 AI IQ Test Website
 
-## Project info
+A modern, interactive IQ test website powered by AI. Built with a minimalistic UI, responsive design, and full functionality. This project offers users a chance to test their intelligence with an AI-assisted evaluation.
 
-**URL**: https://lovable.dev/projects/1654c4e7-f417-491e-a600-273837e41231
+---
 
-## How can I edit this code?
+## 🌐 Live Preview
 
-There are several ways of editing your application.
+*(Add live link here if deployed)*
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1654c4e7-f417-491e-a600-273837e41231) and start prompting.
+## ✨ Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- ✅ Fully functional IQ test with 10 randomized questions  
+- ⏱️ 15-minute timer and progress tracker  
+- 📊 Instant score with AI-generated feedback  
+- 🎨 Clean, modern UI with dark/light mode toggle  
+- 🔁 Retake test and share score options  
+- 🧠 Simulated AI scoring via mock API  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📁 Project Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+.
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Test.jsx
+│   │   ├── Result.jsx
+│   │   └── About.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── README.md
+└── package.json
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚀 Getting Started
 
-**Use GitHub Codespaces**
+```bash
+# 1. Clone the Repository
+git clone https://github.com/your-username/ai-iq-test.git
+cd ai-iq-test
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# 2. Install Dependencies
+npm install
 
-## What technologies are used for this project?
+# 3. Run the Development Server
+npm run dev
 
-This project is built with:
+# Open your browser and go to:
+# http://localhost:5173
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## ⚙️ Tech Stack
 
-Simply open [Lovable](https://lovable.dev/projects/1654c4e7-f417-491e-a600-273837e41231) and click on Share -> Publish.
+- **React** – UI library  
+- **Tailwind CSS** – Styling  
+- **Vite** – Development server and build tool  
+- **Mock AI API** – Simulated intelligence scoring  
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📡 API Simulation
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+> All AI scoring is simulated using mock data for now. Can be replaced with a real AI API (e.g. OpenAI, HuggingFace inference API, etc.)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```js
+// Simulate API call
+setTimeout(() => {
+  resolve({
+    iqScore: 128,
+    interpretation: "High IQ. You have above-average reasoning and problem-solving skills.",
+    suggestion: "Keep challenging yourself with puzzles, learning, and cognitive games."
+  });
+}, 2000);
+```
+
+---
+
+## 📸 Screenshots
+
+*(Include screenshots or demo GIFs here if available)*
+
+---
+
+## 📄 License
+
+This project is open-source under the MIT License.
+
+---
+
+## 🙋‍♂️ Author
+
+Made with ❤️ by [Wahyu Prasetyo Wibowo](https://github.com/your-username)
